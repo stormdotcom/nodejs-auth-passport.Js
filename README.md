@@ -2,6 +2,6 @@
 a simple nodejs authentication using passport.js
 - 📫
 --Module used
--Express
--Express-Session
--Nodemon
+- Express
+- Express-Session
+- Nodemon
