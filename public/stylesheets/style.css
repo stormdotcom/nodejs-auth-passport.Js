@@ -1,0 +1,56 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(252, 252, 252) !important;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #37464d;
+  text-decoration: none;
+}
+a:hover {
+  color: #37464d;
+  text-decoration: none !important;
+}
+.jumbotron {
+  height: 100vh;
+}
+.login {
+  margin: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #fff;
+}
+.img-banner{
+  margin-top:100px;
+}
+.btn-01 {
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.btn-01:hover {
+  background-color: #fff;
+  color:#000;
+  outline: 1px solid black;
+}
+p {
+  font-size: small;
+}
+@media only screen and (max-width: 997px) {
+  .img-banner img {
+    height: 200px;
+  }
+}
