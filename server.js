@@ -79,7 +79,7 @@ function isLoggedIn(req, res, next) {
 
   res.redirect('/login')
 }
-
+// Middleware
 function checkNotLoggedIn(req, res, next) {
   if (req.isAuthenticated()) {
     console.log("Authenticated");
