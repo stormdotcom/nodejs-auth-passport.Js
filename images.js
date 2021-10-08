@@ -1,14 +1,14 @@
 module.exports={
     places:[
         {
-          placename: "Place A",
-          img: "https://source.unsplash.com/random",
-          description: "",
+          placename: "islas baleares",
+          img: "https://images.unsplash.com/photo-1598714673521-98d539a175f4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=435&q=80",
+          description: "Islas Baleares, España",
         },
         {
-          placename: "Place B",
-          img: "https://source.unsplash.com/random",
-          description: "",
+          placename: "harajuku Street",
+          img: "https://images.unsplash.com/photo-1490761668535-35497054764d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+          description: "Shinjuku, Japan",
         },
         {
           placename: "Japan",
@@ -16,9 +16,9 @@ module.exports={
           description: "People",
         },
         {
-          placename: "Motorola One",
-          img: "https://source.unsplash.com/random",
-          description: "",
+          placename: "Tour eiffel",
+          img: "https://images.unsplash.com/photo-1593604572579-d7d19e98cf42?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=388&q=80",
+          description: "Tour Eiffel, Parigi, Francia",
         },
         {
           placename: "The Flatiron Hotel",
