@@ -17,7 +17,7 @@ const users = [{
   name: 'Ajmal',
   email: 'ajmaln73@gmail.com',
   password: '$2b$10$2vrKMDJnHcDVLEmHEl6T.uhOR4p5wNMLApJqUzfEocfoMj4XBj1N.'
-}]
+}];
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
@@ -29,8 +29,8 @@ app.use(session({
   resave: false,
   saveUninitialized: false
 }))
-app.use(passport.initialize())
-app.use(passport.session())
+app.use(passport.initialize());
+app.use(passport.session());
 
 app.get('/', isLoggedIn, (req, res) => {
   let user=req.user
